@@ -7,7 +7,7 @@
   "homepage_url": "https://github.com/lostdedicated/etro-export",
   "content_scripts": [
     {
-      "matches": ["*://*.etro.gg/*"],
+      "matches": ["*://*.etro.gg/gearset/*"],
       "js": ["main.js"]
     }
   ]
