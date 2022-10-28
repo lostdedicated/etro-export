@@ -1,0 +1,15 @@
+{
+
+  "description": "export stats from etro to clipboard for mch sim",
+  "manifest_version": 2,
+  "name": "etro-export",
+  "version": "1.0",
+  "homepage_url": "https://github.com/lostdedicated/etro-export",
+  "content_scripts": [
+    {
+      "matches": ["*://*.etro.gg/*"],
+      "js": ["main.js"]
+    }
+  ]
+
+}
