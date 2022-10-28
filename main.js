@@ -1,4 +1,3 @@
-console.log('huh')
 const e = document.createElement('div')
 e.innerHTML ='<a><button type="button" class="bp3-button bp3-minimal etro-button-hover-primary-fill" location="[object Object]" match="[object Object]"><span class="bp3-button-text">Copy</span></button></a>'
 e.addEventListener("click", exportToClipboard)
